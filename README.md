@@ -23,7 +23,7 @@ WiGLE Network Data Retriever is a Python script for querying and retrieving wire
 3. Set the environment variable `WIGLE_API_TOKEN` with your WiGLE API token.
 4. Run the script and pass the desired location as an argument. For example, for retrieving data for Tacoma, use:
    ```sh
-   python wigle.py -tacoma
+   python wigle.py -location tacoma
    ```
 
 ## Dependencies
