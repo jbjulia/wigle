@@ -43,3 +43,8 @@ WiGLE Network Data Retriever is a Python script for querying and retrieving wire
 ## Disclaimer
 
 Please note that accessing or collecting data from wireless networks might have legal and ethical implications. It is essential to ensure that you comply with the laws and regulations of your country or region and respect privacy and data protection rules.
+
+## Authors
+
+[Joseph Julian](https://github.com/jbjulia)  
+[D14b0l1c](https://github.com/D14b0l1c)
