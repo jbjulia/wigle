@@ -2,12 +2,12 @@
 
 ## Project Description
 
-WiGLE Network Data Retriever is a Python script for querying and retrieving wireless network information within specified geographic areas from the WiGLE database. The WiGLE platform aggregates information on wireless networks (Wi-Fi, cell, Bluetooth) across the globe and provides this data through their API. This script makes use of the WiGLE API to fetch data about wireless networks in specified locations such as Tacoma, Olympia, and Seattle, and presents it in both a human-readable table format and a CSV file.
+WiGLE Network Data Retriever is a Python script for querying and retrieving wireless network information within specified geographic areas from the WiGLE database. The WiGLE platform aggregates information on wireless networks (Wi-Fi, cell, Bluetooth) across the globe and provides this data through their API. This script makes use of the WiGLE API to fetch data about wireless networks in specified locations  and presents it in both a human-readable table format and a CSV file.
 
 ## Features
 
 - Retrieve wireless network information (such as SSIDs, MAC addresses, signal strength, and geographic coordinates) within specified latitude and longitude ranges.
-- Support for querying multiple predefined locations (Tacoma, Olympia, and Seattle) by passing location-specific arguments.
+- Support for querying multiple predefined locations by passing location-specific arguments.
 - Handles API rate limiting and pagination to retrieve large datasets.
 - Cleans data to remove non-printable characters.
 - Outputs the results in a well-formatted table for display in the console.
@@ -19,13 +19,13 @@ WiGLE Network Data Retriever is a Python script for querying and retrieving wire
 1. Clone the repository to your local machine.
 2. Make sure you have Python 3.x installed. Also, install the required libraries by running `pip install -r requirements.txt`.
 3. Set the environment variable `WIGLE_API_TOKEN` with your WiGLE API token, or you can pass it as a command line argument using `-api_token`.
-4. Run the script and pass the desired location as an argument. For example, for retrieving data for Tacoma, use:
+4. Run the script and pass the desired location as an argument. For example, for retrieving data for "city", use:
    ```sh
-   python wigle.py -location tacoma
+   python wigle.py -location "name"
    ```
    Optionally, you can pass your API token through the command line like this:
    ```sh
-   python wigle.py -location tacoma -api_token YOUR_API_TOKEN
+   python wigle.py -location "name" -api_token YOUR_API_TOKEN
    ```
 
 ## Dependencies
