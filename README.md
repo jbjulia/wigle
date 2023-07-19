@@ -22,13 +22,13 @@ WiGLE Network Data Retriever is a Python script for querying and retrieving wire
 3. Run the script. When prompted, enter the desired latitude and longitude ranges and your WiGLE API token.
 
    ```sh
-   python wigle.py
+   python wifi.py
    ```
 
-   For instance, if you want to collect data in the geographic region defined by the latitude range 47.2 to 47.3 and the longitude range -122.5 to -122.4, and your API token is `YOUR_API_TOKEN`, you would do:
+   For instance, if you want to collect Wi-Fi data in the geographic region defined by the latitude range 47.2 to 47.3 and the longitude range -122.5 to -122.4, and your API token is `YOUR_API_TOKEN`, you would do:
 
    ```sh
-   python wigle.py
+   python wifi.py
    Enter lower latitude: 47.2
    Enter upper latitude: 47.3
    Enter lower longitude: -122.5
