@@ -69,7 +69,8 @@ def send_request(api_type, headers, only_mine, last_updated):
     # Ensure the output folder exists
     os.makedirs("output", exist_ok=True)
 
-    with open(filename, "a") as f:
+    # Open the file for writing with UTF-8 encoding
+    with open(filename, "a", encoding="utf-8") as f:
         while retries < MAX_RETRIES:
             try:
                 response = requests.get(BASE_URL + api_endpoint, params=query_params, headers=headers)
